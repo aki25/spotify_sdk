@@ -27,6 +27,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'de.minimalme.spotify_sdk'
+    
     compileSdk 34
 
     sourceSets {
